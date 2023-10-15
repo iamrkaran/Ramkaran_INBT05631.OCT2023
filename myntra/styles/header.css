@@ -1,0 +1,159 @@
+/* Header styles */
+.myntra-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  color: #000000;
+  padding: 0 50px; /* Adjust the left and right padding */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Changed to 100% */
+  z-index: 100;
+}
+
+.myntra-header {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* Logo styles */
+.logo img {
+  max-width: 100px;
+}
+
+
+/* Logo styles */
+.logo img {
+  max-width: 100px;
+}
+
+/* Main menu styles */
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  position: relative;
+  margin-right: 20px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Submenu styles */
+.sub-menu {
+  display: none;
+  position: absolute;
+  width: 500px;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  padding: 20px; 
+}
+
+.sub-menu table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sub-menu tr {
+  border-bottom: 1px solid #221f1f; 
+}
+
+.sub-menu td {
+  padding: 5px;
+  text-align: left;
+}
+
+.sub-menu a {
+  color: #000000;
+  font-weight: normal;
+  display: block;
+  text-decoration: none;
+}
+
+.sub-menu a:hover {
+  color: #1120ee;
+}
+
+.main-menu li:hover .sub-menu {
+  display: block;
+}
+
+
+.category {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.search-bar input[type="text"] {
+  justify-content: flex-end;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #000;
+}
+.profile-menu {
+  display: flex;
+}
+
+.profile-menu a {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-menu i {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-menu span {
+  font-size: 12px;
+  text-align: center;
+}
+
+.profile-menu img {
+  max-width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
