@@ -46,4 +46,5 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+I understand that the clone-based project created by me is intended solely for
+educational purposes.
